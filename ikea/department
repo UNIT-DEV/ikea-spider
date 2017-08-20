@@ -1,0 +1,2576 @@
+
+
+<!DOCTYPE html public "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+
+
+
+<html xmlns="http://www.w3.org/1999/xhtml">
+	<head> 
+		<title id="txtHtmlTitle">所有产品 - IKEA</title>
+
+		
+<meta http-equiv="Content-Type" content="text/html;charset=UTF-8"/>
+<meta http-equiv="Content-Style-Type" content="text/css"/>
+<meta http-equiv="Content-Script-Type" content="text/javascript"/>
+<meta name="date_published" scheme="W3CDTF" content="2017-08-18" />
+
+<meta name="robots" content="index, follow" />
+
+<meta name="language" scheme="rfc1766" content="zh-CN" />
+<meta name="languageid" content="-7" />
+<meta name="store_id" content="24" />
+
+				<meta name="description" content="所有产品" />
+			
+		<meta name="keywords" content="所有产品" />
+		<meta name="country" content="CN" />
+		<meta name="title" content="所有产品 - IKEA" />
+		<meta name="IRWStats.pageName" content="All Products" />
+		<meta name="IRWStats.pageNameLocal" content="所有产品" />
+		
+		<meta name="IRWStats.category" content="All Products" />
+		<meta name="IRWStats.pageType" content="All Products" />
+		<meta name="IRWStats.internalPageType" content="allproducts" />
+		<meta name="IRWStats.productFindingMethod" content="browse" />
+		<meta name="IRWStats.front" content="yes" />
+		<meta name="IRWStats.merchandisingCategory" content="yes"/>
+		
+<meta name="IRWStats.siteVersion" content="6.3.3-BL012"/> 	
+		<script language="JavaScript" src="//tags.tiqcdn.com/utag/ikea/cn-main/prod/utag.sync.js" type="text/javascript"></script>
+	
+<script language="JavaScript" src="/ms/js/js_main.js" type="text/javascript"></script>
+
+
+<script language="JavaScript" src="/ms/zh_CN/js/navOptions.js" type="text/javascript"></script>
+
+<script language="JavaScript" type="text/javascript">
+    var irwstats_locale = "zh_CN";
+    irwstatPrepareOmnitureConfig(irwstats_locale, "live");
+</script>
+<link rel="stylesheet" href="/ms/css/css_main.css" type="text/css"/>
+<link rel="stylesheet" id="localCSS" href="/ms/zh_CN/css/local_em.css" type="text/css"/>
+
+<script type="text/javascript" language="javascript">
+	//call the irwInit function in general.js
+	irwInit();
+</script>
+
+<script type="text/javascript" language="javascript">
+	//call the lastUrlCookie fn from cookie_util.js
+	storeUrlForBackShopping();
+</script>
+
+<script type="text/javascript">
+	// Variables needed for add to shopping list/shopping cart popup
+	var js_fn_CHOICE_VIEW_LIST = "查看购物清单";
+	var js_fn_CHOICE_MORE_PRODUCT_LIST = "添加产品到";
+	var js_fn_MOREPRODUCTS_HEADER = "产品已添加";
+	var js_fn_MOREPRODUCTS_ERROR_HEADER = "错误";
+	var js_fn_MOREARTICLES_ERROR_TEXT = "产品";
+	var js_fn_POPUP_SELECT_HEADER = "选择购物清单";
+	var js_fn_POPUP_DONE_HEADER = "产品添加";
+	var js_fn_POPUP_DONE_TEXT = "产品添加至";
+	var js_fn_POPUP_SAVE_BTN = "保存";
+	var js_fn_POPUP_CLOSE_BTN = "关闭";
+	var js_fn_POPUP_CANCEL_BTN = "Delete";
+	var js_fn_POPUP_ERROR_HEADER = "一个错误发生";
+	var js_fn_POPUP_ERROR_TEXT = "在执行您的申请时发生错误";
+	var js_fn_POPUP_LOGIN_HEADER = "登录";
+	var js_fn_POPUP_LOGIN_LINK = "登录";
+	var js_fn_POPUP_SIGNUP_LINK = "注册";
+	var js_fn_POPUP_LOGIN_TEXT = "<a class=\"link\" rel=\"nofollow\" href=\"/webapp/wcs/stores/servlet/LogonForm?storeId=24&langId=-7&URL=/cn/zh/catalog/allproducts/department/department/\">登录</a> 或 <a class=\"link\" rel=\"nofollow\" href=\"/webapp/wcs/stores/servlet/CreateUser?storeId=24&langId=-7&URL=/cn/zh/catalog/allproducts/department/department/\">注册</a> 创建新的购物清单, 可保存,添加产品至多个购物清单";
+	var js_fn_DEFAULT_LISTNAME = "购物清单";
+	var js_fn_POPUP_ERROR_MAX_NO_OF_LISTS = "您创建的购物清单数量已到达最大";
+	var js_fn_SHOPPING_CART  = "查看您的购物车";
+	var js_fn_HASBEENADDEDTOSC = "添加入您的购物车";
+	var js_fn_COULDNOTBEADDEDTOSC = "无法加入购物车, 请稍候尝试。";
+	var js_fn_POPUP_PRODUCTADDED = "产品已经添加到您的购物车";
+	var js_fn_POPUP_VIEWCART_URL = "/webapp/wcs/stores/servlet/OrderItemDisplay?storeId=24&langId=-7&catalogId=11001&orderId=.&newLinks=true";
+	var js_fn_ERROR_CREATE_LIST = "创建购物清单发生错误";
+	var js_fn_ERROR_SHOPPING_LIST_MAX_ITEM_QUANTITY_LIMIT_EXCEEDED = "单款产品最大数量为99";
+	var js_fn_ERROR_SHOPPING_LIST_MAX_LIMIT_EXCEEDED = "已超过产品最大数量";
+	var js_fn_POPUP_CART_PRODUCTS = "产品";
+	var js_fn_POPUP_CART_TOTAL_PRICE = "总价";
+	var js_fn_OI_txt_inclVat = "&nbsp;";
+	var js_fn_OI_txt_exclVat = "&nbsp;";
+	var js_fn_OI_txt_POPUP_inclVat = "&nbsp;";
+	var js_fn_OI_txt_POPUP_exclVat = "&nbsp;";
+	var js_fn_TXT_PRICE = "价格/";
+	var js_fn_UNIT_MEASURE_EN = "";
+	var js_fn_TXT_UNITPRICE = "Unit price";
+	var js_fn_defaultLocalStore_txt = "Select your IKEA store";
+    var js_ERR_PAY_COMMUNICATION_DISTR = "&nbsp;";
+    var js_ENABLE_STOCK_UNIT = "false";
+	var js_ENERGY_PRODUCT_FICHE = "&nbsp;";
+	var sprTechInfoTabText =  "&nbsp;";
+	
+</script><!--[if IE]>
+  <link rel="stylesheet" href="/ms/css/ie.css" type="text/css"/>
+<![endif]-->
+<!--[if IE 7]>
+  <script type="text/javascript" src="/ms/js/ie7.js"></script>
+  <link rel="stylesheet" href="/ms/css/ie7.css" type="text/css"/>
+<![endif]-->
+<!--[if IE 6]>
+  <link rel="stylesheet" href="/ms/css/ie6.css" type="text/css"/>
+<![endif]-->
+<!--[if lt IE 6]>
+  <link rel="stylesheet" href="/ms/css/ie5_5.css" type="text/css"/>
+<![endif]-->
+<!--[if lte IE 6]>
+  <script src="/ms/js/iepngfix_tilebg.js" type="text/javascript"></script>
+<![endif]-->
+
+		<script type="text/javascript">
+			var startUrl = "\x2Fcn\x2Fzh\x2Fcatalog\x2Fallproducts\x2Fdepartment\x2Fdepartment\x2F";
+			
+			
+			if(startUrl.contains("allproducts")){
+			    
+			    if(startUrl.contains("department"))
+			    {
+			        if(startUrl.contains("department/")){
+			            
+			            startUrl= startUrl.substr(0,37); 
+		          
+			        }else{
+			            startUrl= startUrl.substr(0,36); 
+			          
+			        }
+			    }
+			    
+			    if(startUrl.contains("alphabetical") && !startUrl.contains("department"))
+			    {
+			        if(startUrl.contains("alphabetical/")){
+			            
+			            startUrl= startUrl.substr(0,39); 
+		          
+			        }else{
+			            startUrl= startUrl.substr(0,38); 
+			          
+			        }
+			    }
+			    if(!startUrl.contains("alphabetical") && !startUrl.contains("department"))
+			    {
+			        if(startUrl.contains("allproducts")){
+			            
+			            startUrl= startUrl.substr(0,26); 
+		          
+			        }
+			    }
+			    
+			}
+			
+			if(!startUrl.endsWith("/")) startUrl = startUrl + "/";
+			if(startUrl.endsWith("department/")) startUrl = startUrl.substr(0,startUrl.length-11);
+			if(startUrl.endsWith("alphabetical/")) startUrl = startUrl.substr(0,startUrl.length-13);
+			var optionUrls = [startUrl,startUrl+"department/",startUrl+"alphabetical/"];
+		</script>
+					
+	</head>
+	<body onload="">
+	<div xmlns:tns="http://www.w3.org/1999/xhtml"><a class="skipToMainContent" href="#mainContent"></a></div><div id="allContent"><div id="mainPadding">
+
+
+        
+        
+
+
+
+<script type="text/javascript">
+<!-- INCLUDE TEALIUM UTAG.JS ASYNCHRONOUSLY FOR IN THE BEGINNING OF BODY -->
+// part in bold should be configurable in settings per market
+ (function(a, b, c, d) {
+  a = '//tags.tiqcdn.com/utag/ikea/cn-main/prod/utag.js';
+  b = document;
+  c = 'script';
+  d = b.createElement(c);
+  d.src = a;
+  d.type = 'text/java' + c;
+  d.async = true;
+  a = b.getElementsByTagName(c)[0];
+  a.parentNode.insertBefore(d, a);
+})();
+<!-- INCLUDE TEALIUM UTAG.JS ASYNCHRONOUSLY FOR IN THE BEGINNING OF BODY -->
+</script>
+
+        <div class="access" title="可使用的快捷键如下：">
+        
+        
+        
+            <a href="http://www.ikea.com/cn/zh/customerservices/faq/" accesskey="1" title="按住ALT + 1 跳转至“常见问题”" rel="nofollow"></a>
+        
+        </div>      
+        <div id="topMenu" class="topMenu">
+            <form id="myAccount" action="/webapp/wcs/stores/servlet/LogonForm" method="get">
+                <div>
+                    <input type="hidden" name="storeId" value="24" />
+                    <input type="hidden" name="langId" value="-7" />
+                    <input type="hidden" name="catalogId" value="11001" />
+                </div>
+            </form>
+                <div class="logoContainer">
+                    <a href="/cn/zh/" id="lnkIKEALogoHeader" class="logoLink">
+                        <img src="/ms/img/header/logo.gif" alt="欢迎来到宜家中国" class="logo" id="imgIKEALogoHeader"/>
+                    </a>
+                    
+                        <div class="searchForm">
+                    
+                            <form action="/cn/zh/search/" id="searchForm" method="get" onsubmit="return checkSearch(this)" accept-charset="utf-8,*">
+                                
+                                
+                                    
+                                
+                                    
+                                
+                                <div class="formInput">
+                                    <input type="text" value="" name="query" id="search" />
+                                </div>
+                                <div class="formBtn">
+                                    <script type="text/javascript">
+                                        //<![CDATA[
+                                            createButton('搜索', 'lnkSearchBtnHeader', '', function() { search('searchForm'); });
+                                        //]]>
+                                    </script>
+                                    <noscript>
+                                        <div class="buttonContainer"><a href="javascript:void(0);"><span class="buttonLeft">&nbsp;</span><span class="buttonCaption"><input id="lnkSearchBtnHeader" type="submit" value="搜索" /></span><span class="buttonRight">&nbsp;</span></a></div>
+                                    </noscript>
+                                </div>
+                            </form>
+                        </div>
+                        <div class="ikeaTagline" id="txtIKEATagHeader"></div>
+                            <script type="text/javascript">
+                                //<![CDATA[
+                                    var storeId='24';
+                                    var userInfo = getUserInfo('24','normal');
+                                    document.observe('dom:loaded', function() {
+                                        userInfo = getUserInfo('24');
+                                        updateWelcomeText();
+                                        updateNoOfCartItems('24');
+                                        generateScLinkListener('24');
+                                    });
+                                    function updateWelcomeText() {
+                                        var userLoggedIn = '欢迎回来 {lastname}{firstname} {title} ! 不是 {lastname}{firstname}? <a href="/webapp/wcs/stores/servlet/Logoff?langId=-7&amp;storeId=24&amp;forgetMe=true" rel="nofollow">点击这里</a>';
+                                        var userNotLoggedIn = '欢迎来到宜家中国！';
+                                        if(userInfo != null && userInfo.firstName!= "" && userInfo.firstName!= "") {
+                                            userLoggedIn = userLoggedIn.replace(/{firstname}/g,userInfo.firstName.escapeHTML());
+                                            userLoggedIn = userLoggedIn.replace(/{lastname}/g,userInfo.lastName.escapeHTML());
+                                            userLoggedIn = userLoggedIn.replace(/{title}/g,userInfo.title.escapeHTML());
+                                            document.getElementById("txtIKEATagHeader").innerHTML = userLoggedIn;
+                                        }else{
+                                            document.getElementById("txtIKEATagHeader").innerHTML = userNotLoggedIn;
+                                        }
+                                    }
+                                //]]>
+                            </script>
+                        </div>
+                        <div class="rightSection">
+                            <div class="iconLinkContainer">
+                                <div class="iconLink">
+                                    <a href="https://www.ikea-sh.cn/?utm_source=IRW%5FPC%5FIcon&amp;utm_medium=IRW&amp;utm_content=PC&amp;cid=ms|cn|cn_ecommerce|201608311217570417_1" id="lnkIcon1Header">
+                                        <img src="/ms/zh_CN/img/2017_img/others/shopping_cart.jpg" alt="网上商城 (上海)"/>
+                                        <span>网上商城 (上海)</span>
+                                    </a>
+                                </div>
+                            </div>
+                
+                
+
+            
+                
+                <div class="linkList">
+                    <ul>
+                        
+                            
+                            
+                            
+                                    
+                                            <li>
+                                                <a href="/ms/zh_CN/ikny_splash.html?icid=ilp|cn|hp|201704070524569056_3" class="arrowLink" id="link_header_ikny_splash">选择本地商场</a>
+                                                
+                                            </li>
+                                        
+                                
+                        
+                            
+                            
+                            
+                                    
+                                            <li>
+                                                <a href="/ms/zh_CN/ikea-family/index.html?icid=ilp|cn|hp|201704070524569056_4" class="arrowLink arrowLinkActive" id="link_header_index">宜家俱乐部</a>
+                                                
+                                            </li>
+                                        
+                                
+                        
+                            
+                            
+                            
+                                    
+                                            <li>
+                                                <a href="/ms/zh_CN/customer_service/faq/index.html?icid=ilp|cn|hp|201704070524569056_5" class="arrowLink" id="link_header_index">常见问题</a>
+                                                
+                                            </li>
+                                        
+                                
+                        
+                            
+                    </ul>
+                </div>
+                
+                <div class="linkList">
+                    <ul>
+                        
+                            
+                            
+                                    
+                                            <li>
+                                                <a href="/webapp/wcs/stores/servlet/InterestItemDisplay?storeId=24&amp;langId=-7" class="arrowLink" id="link_header_shopping_list" rel="nofollow">我的购物清单</a>
+                                                
+                                            </li>
+                                        
+                                
+                        
+                            
+                            
+                            
+                                    
+                                            <li>
+                                                <a href="/webapp/wcs/stores/servlet/UpdateUser?storeId=24&amp;langId=-7" class="arrowLink" id="link_header_update_user" rel="nofollow">我的帐户</a>
+                                                
+                                            </li>
+                                        
+                                
+                        
+                            
+                            
+                            
+                                    
+                                    
+                                <li>
+                                    <script type="text/javascript">
+                                        //<![CDATA[
+                                        if(haslogoffURL('24')) {
+                                            document.writeln("<a class='arrowLink' id='link_header_logout' href='/webapp/wcs/stores/servlet/Logoff?langId=-7&amp;storeId=24&amp;rememberMe=true' rel='nofollow'>退出</a>");
+                                        }else{
+                                            document.writeln("<a class='arrowLink' id='link_header_login' href='javascript:logonLink();' rel='nofollow'>登录</a>");
+                                        }
+                                        //]]>
+                                    </script>
+                                </li>
+                                
+                        
+                    </ul>
+                </div>
+            </div>
+        </div>
+
+        <div id="menu">
+            <div class="mainMenu">
+                <div class="tableContainer">
+                    <table>
+                        <tr>
+                            <td class="allProducts" id="allProducts">
+                                <a href="/cn/zh/catalog/allproducts/" id="lnkMainMenu1Header">
+                                    <span class="end">
+                                        <span class="separator">
+                                            <span class="padding">&#x6240;&#x6709;&#x4EA7;&#x54C1;</span> 
+                                        </span>
+                                    </span>   
+                                </a>
+                            </td>
+                            <td class="newAtIkea">
+                                <a href="/cn/zh/catalog/news/departments/" id="lnkMainMenu2Header">
+                                    <span class="separator">
+                                        <span class="padding">&#x65B0;&#x54C1;</span>
+                                    </span>
+                                </a>
+                            </td>
+                             <td>
+                                <a href="/cn/zh/ideas/?icid=ilp|cn|hp|201704160502192167_3" id="lnkMainMenu3Header">
+                                    <span class="separator">
+                                        <span class="padding">&#x521B;&#x610F;&#x7075;&#x611F;</span>
+                                    </span>
+                                </a>
+                            </td>
+
+                            <td>
+                                <a href="/cn/zh/catalog/categories/departments/bedroom/?icid=ilp|cn|hp|201704160502192167_4" id="lnkMainMenu4Header">
+                                    <span class="separator">
+                                        <span class="padding">&#x5367;&#x5BA4;</span>
+                                    </span>
+                                </a>
+                            </td>
+
+                            <td>
+                                <a href="/cn/zh/catalog/categories/departments/bathroom/?icid=ilp|cn|hp|201704180500254879_1" id="lnkMainMenu5Header">
+                                    <span class="separator">
+                                        <span class="padding">&#x6D74;&#x5BA4;</span>
+                                    </span>
+                                </a>
+                            </td>
+
+                            <td>
+                                <a href="http://www.ikea.com/cn/zh/campaigns/2018_mrfl/livingroom.html?icid=ilp|cn|hp|201704160502192167_5" id="lnkMainMenu6Header">
+                                    <span class="separator">
+                                        <span class="padding">&#x5BA2;&#x5385;</span>
+                                    </span>
+                                </a>
+                            </td>
+
+                            <td>
+                                <a href="/cn/zh/catalog/categories/departments/kitchen/?icid=ilp|cn|hp|201704160502192167_6" id="lnkMainMenu7Header">
+                                    <span class="separator">
+                                        <span class="padding">&#x53A8;&#x623F;</span>
+                                    </span>
+                                </a>
+                            </td>
+
+                            <td>
+                                <a href="/cn/zh/catalog/categories/departments/dining/?icid=ilp|cn|hp|201704160502192167_7" id="lnkMainMenu8Header">
+                                    <span class="separator">
+                                        <span class="padding">&#x9910;&#x5385;</span>
+                                    </span>
+                                </a>
+                            </td>
+
+                            <td>
+                                <a href="/cn/zh/catalog/categories/departments/childrens_ikea/?icid=ilp|cn|hp|201704160502192167_8" id="lnkMainMenu9Header">
+                                    <span class="separator">
+                                        <span class="padding">&#x513F;&#x7AE5;&#x5929;&#x5730;</span>
+                                    </span>
+                                </a>
+                            </td>
+
+                            <td>
+                                <a href="/cn/zh/catalog/categories/departments/Textiles/?icid=ilp|cn|hp|201704160502192167_9" id="lnkMainMenu10Header">
+                                    <span class="separator">
+                                        <span class="padding">&#x7EBA;&#x7EC7;&#x54C1;</span>
+                                    </span>
+                                </a>
+                            </td>
+
+                            <td>
+                                <a href="/cn/zh/catalog/categories/business/?icid=ilp|cn|hp|201704160502192167_10" id="lnkMainMenu11Header">
+                                    <span class="separator">
+                                        <span class="padding">&#x5B9C;&#x5BB6;&#x516C;&#x53F8;&#x4E1A;&#x52A1;&#x90E8;</span>
+                                    </span>
+                                </a>
+                            </td>
+
+                            <td style="width: 161px;"></td>
+                                <td id="moreRooms" class="moreRooms">
+                                <a href="javascript:;" onmouseover="tagVisibility('SELECT','hide');menuToggle('down');" onmouseout="tagVisibility('SELECT','show');menuToggle('up');" id="lnkMainMenu12Header">
+                                    <span class="end">
+                                        <span class="padding"><span class="arrow" id="arrow2">&nbsp;</span>所有房间</span>
+                                    </span>
+                                </a>
+                            </td>
+                        </tr>
+                    </table>
+                </div>
+            </div>
+            <img src="/ms/img/header/main_menu_shadow.gif" alt="" class="mainMenuShadow"/>
+        </div>
+        <!-- prints the all departments menu -->
+        <script type="text/javascript">
+        //<![CDATA[
+            getProducts();
+            enableDepartmentLink();
+        //]]>
+        </script>
+        
+    
+
+
+
+
+
+
+<div id="main">
+		<div id="prfinfo">
+				<div class="headline">
+					Product Recycling Fund
+				</div>
+				<div class="body">
+					The price of this item includes a contribution to a Product recycling fund to ensure that waste electrical and electronic equipment is collected and recycled in a responsible manner.
+				</div>
+				<div class="link">
+					<a href="/ms/zh_CN/about_ikea_new/about/prf/prf.html">Read more on PRF</a>
+				</div>
+				<div class="btns">
+					<script type="text/javascript">
+						createButton("Close", "prfbtn", "", function() { closePrfPopup(); });
+					</script>			
+				</div>
+		</div>		
+		<a name="mainContent"></a>		
+
+		<div class="rightContent" id="allProductsMain">
+			<a name="mainContent"></a>
+
+			<div class="productsHeaderContainer align">
+				<h1 id="txtMainHdr" class="productsHeader">所有产品</h1>
+			</div>
+			
+						
+			
+            <div id="allProductsContainer">
+				<div class="paginationContainerFW10 paginationContainerNoTopMargin">
+					<div class="paginationPadding">
+					<div class="paginationLeft">
+					
+					<span>浏览按:</span>
+					<form id="sourceForm">
+						<select name="displayMode" onChange="location.href=optionUrls[this.form.displayMode.selectedIndex];">
+							<option value="function">功能</option>
+							<option value="department" selected="selected">部门</option>
+							
+						</select>
+						<noscript>
+							<div class="buttonContainer"><a href="javascript:void(0);"><div class="buttonLeft">&nbsp;</div><div class="buttonCaption"><input type="submit" value="完成" /></div><div class="buttonRight">&nbsp;</div></a></div>
+						</noscript>
+					</form>
+					</div>
+				</div></div>
+				<div class="productCategoryContainerWrapper">
+	                <div class="productCategoryContainer productCategoryContainerNoBorder">
+		                <span class="header">
+	                   		宜家厨房
+						</span>
+    	                <div class="textContainer">
+    	                	
+								<a id="txt11" href="/cn/zh/catalog/categories/departments/ikea_kitchens/24255/">
+									内配件
+								</a>
+							
+								<a id="txt12" href="/cn/zh/catalog/categories/departments/ikea_kitchens/20822/">
+									冰箱 & 冰柜
+								</a>
+							
+								<a id="txt13" href="/cn/zh/catalog/categories/departments/ikea_kitchens/kitchen_integrated_lighting/">
+									厨房内置照明
+								</a>
+							
+								<a id="txt14" href="/cn/zh/catalog/categories/departments/ikea_kitchens/10471/">
+									厨房岛和推车
+								</a>
+							
+								<a id="txt15" href="/cn/zh/catalog/categories/departments/ikea_kitchens/24254/">
+									厨房橱柜和前板
+								</a>
+							
+								<a id="txt16" href="/cn/zh/catalog/categories/departments/ikea_kitchens/20676/">
+									墙面储藏件
+								</a>
+							
+								<a id="txt17" href="/cn/zh/catalog/categories/departments/ikea_kitchens/19121/">
+									墙面板
+								</a>
+							
+								<a id="txt18" href="/cn/zh/catalog/categories/departments/ikea_kitchens/16292/">
+									工具和安装件
+								</a>
+							
+								<a id="txt19" href="/cn/zh/catalog/categories/departments/ikea_kitchens/20819/">
+									抽油烟机和滤器
+								</a>
+							
+								<a id="txt110" href="/cn/zh/catalog/categories/departments/ikea_kitchens/16298/">
+									拉手和拉钮
+								</a>
+							
+								<a id="txt111" href="/cn/zh/catalog/categories/departments/ikea_kitchens/22957/">
+									标配厨房
+								</a>
+							
+								<a id="txt112" href="/cn/zh/catalog/categories/departments/ikea_kitchens/20825/">
+									洗碗机
+								</a>
+							
+								<a id="txt113" href="/cn/zh/catalog/categories/departments/ikea_kitchens/20812/">
+									灶具
+								</a>
+							
+								<a id="txt114" href="/cn/zh/catalog/categories/departments/ikea_kitchens/20810/">
+									烤箱
+								</a>
+							
+								<a id="txt115" href="/cn/zh/catalog/categories/departments/ikea_kitchens/24261/">
+									米多厨房龙头和水槽
+								</a>
+							
+								<a id="txt116" href="/cn/zh/catalog/categories/departments/ikea_kitchens/24264/">
+									米多操作台面
+								</a>
+							
+								<a id="txt117" href="/cn/zh/catalog/categories/departments/ikea_kitchens/20611/">
+									踏脚凳和梯子
+								</a>
+							
+								<a id="txt118" href="/cn/zh/catalog/categories/departments/ikea_kitchens/16200/">
+									食品贮藏室
+								</a>
+							
+		    			</div>
+		    		</div>
+		    		
+	                
+	                <div class="productCategoryContainer ">
+		                <span class="header">
+	                   		宜家食品部
+						</span>
+    	                <div class="textContainer">
+    	                	
+								<a id="txt21" href="/cn/zh/catalog/categories/departments/food/25217/">
+									肉
+								</a>
+							
+								<a id="txt22" href="/cn/zh/catalog/categories/departments/food/25214/">
+									鱼和海产品
+								</a>
+							
+								<a id="txt23" href="/cn/zh/catalog/categories/departments/food/25213/">
+									蔬菜和配菜
+								</a>
+							
+								<a id="txt24" href="/cn/zh/catalog/categories/departments/food/25212/">
+									面包和奶制品
+								</a>
+							
+								<a id="txt25" href="/cn/zh/catalog/categories/departments/food/25211/">
+									饮料
+								</a>
+							
+								<a id="txt26" href="/cn/zh/catalog/categories/departments/food/25216/">
+									酱汁、果酱和调味品
+								</a>
+							
+								<a id="txt27" href="/cn/zh/catalog/categories/departments/food/25215/">
+									蛋糕、甜点和饼干
+								</a>
+							
+								<a id="txt28" href="/cn/zh/catalog/categories/departments/food/25218/">
+									糖果、巧克力和零食
+								</a>
+							
+								<a id="txt29" href="/cn/zh/catalog/categories/departments/food/25302/">
+									冰包和烹饪书
+								</a>
+							
+		    			</div>
+		    		</div>
+		    		
+	                
+	                <div class="productCategoryContainer ">
+		                <span class="header">
+	                   		户外
+						</span>
+    	                <div class="textContainer">
+    	                	
+								<a id="txt31" href="/cn/zh/catalog/categories/departments/outdoor/21964/">
+									户外用餐家具
+								</a>
+							
+								<a id="txt32" href="/cn/zh/catalog/categories/departments/outdoor/21959/">
+									休闲起居家具
+								</a>
+							
+								<a id="txt33" href="/cn/zh/catalog/categories/departments/outdoor/21958/">
+									户外收纳
+								</a>
+							
+								<a id="txt34" href="/cn/zh/catalog/categories/departments/outdoor/17893/">
+									户外靠垫
+								</a>
+							
+								<a id="txt35" href="/cn/zh/catalog/categories/departments/outdoor/14971/">
+									装饰性灯具
+								</a>
+							
+								<a id="txt36" href="/cn/zh/catalog/categories/departments/outdoor/17887/">
+									遮阳伞&亭子
+								</a>
+							
+								<a id="txt37" href="/cn/zh/catalog/categories/departments/outdoor/outdoor_pots_plants/">
+									户外花盆和植物
+								</a>
+							
+								<a id="txt38" href="/cn/zh/catalog/categories/departments/outdoor/21957/">
+									户外地板
+								</a>
+							
+								<a id="txt39" href="/cn/zh/catalog/categories/departments/outdoor/24898/">
+									烧烤
+								</a>
+							
+								<a id="txt310" href="/cn/zh/catalog/categories/departments/outdoor/34203/">
+									户外纺织品
+								</a>
+							
+		    			</div>
+		    		</div>
+		    		
+	                
+	                <div class="productCategoryContainer ">
+		                <span class="header">
+	                   		无线充电产品
+						</span>
+    	                <div class="textContainer">
+    	                	
+								<a id="txt41" href="/cn/zh/catalog/categories/departments/wireless_charging/30611/">
+									无线充电器
+								</a>
+							
+								<a id="txt42" href="/cn/zh/catalog/categories/departments/wireless_charging/30563/">
+									手机无线充电外壳
+								</a>
+							
+		    			</div>
+		    		</div>
+		    		
+	                
+		                </div>
+		                <div class="productCategoryDivider productCategoryDividerFirst"></div>
+		                <div class="productCategoryDivider"></div>
+		                <div class="productCategoryDivider"></div>
+		                <div class="productCategoryDivider"></div>
+	                <div class="productCategoryContainerWrapper">
+	                <div class="productCategoryContainer productCategoryContainerNoBorder">
+		                <span class="header">
+	                   		米多厨房 
+						</span>
+    	                <div class="textContainer">
+    	                	
+								<a id="txt51" href="/cn/zh/catalog/categories/departments/kitchen/16292/">
+									工具和安装件
+								</a>
+							
+								<a id="txt52" href="/cn/zh/catalog/categories/departments/kitchen/20810/">
+									烤箱
+								</a>
+							
+								<a id="txt53" href="/cn/zh/catalog/categories/departments/kitchen/20812/">
+									灶具
+								</a>
+							
+								<a id="txt54" href="/cn/zh/catalog/categories/departments/kitchen/20819/">
+									抽油烟机和滤器
+								</a>
+							
+								<a id="txt55" href="/cn/zh/catalog/categories/departments/kitchen/20825/">
+									洗碗机
+								</a>
+							
+								<a id="txt56" href="/cn/zh/catalog/categories/departments/kitchen/20822/">
+									冰箱 & 冰柜
+								</a>
+							
+								<a id="txt57" href="/cn/zh/catalog/categories/departments/kitchen/24254/">
+									厨房橱柜和前板
+								</a>
+							
+								<a id="txt58" href="/cn/zh/catalog/categories/departments/kitchen/24255/">
+									内配件
+								</a>
+							
+								<a id="txt59" href="/cn/zh/catalog/categories/departments/kitchen/24261/">
+									米多厨房龙头和水槽
+								</a>
+							
+								<a id="txt510" href="/cn/zh/catalog/categories/departments/kitchen/24264/">
+									米多操作台面
+								</a>
+							
+								<a id="txt511" href="/cn/zh/catalog/categories/departments/kitchen/16298/">
+									拉手和拉钮
+								</a>
+							
+								<a id="txt512" href="/cn/zh/catalog/categories/departments/kitchen/kitchen_int_lighting/">
+									厨房内置照明
+								</a>
+							
+								<a id="txt513" href="/cn/zh/catalog/categories/departments/kitchen/20676/">
+									墙面储藏件
+								</a>
+							
+								<a id="txt514" href="/cn/zh/catalog/categories/departments/kitchen/10471/">
+									厨房岛和推车
+								</a>
+							
+								<a id="txt515" href="/cn/zh/catalog/categories/departments/kitchen/20611/">
+									踏脚凳和梯子
+								</a>
+							
+								<a id="txt516" href="/cn/zh/catalog/categories/departments/kitchen/19121/">
+									墙面板
+								</a>
+							
+								<a id="txt517" href="/cn/zh/catalog/categories/departments/kitchen/16200/">
+									食品贮藏室
+								</a>
+							
+								<a id="txt518" href="/cn/zh/catalog/categories/departments/kitchen/22957/">
+									标配厨房
+								</a>
+							
+		    			</div>
+		    		</div>
+		    		
+	                
+	                <div class="productCategoryContainer ">
+		                <span class="header">
+	                   		餐厅
+						</span>
+    	                <div class="textContainer">
+    	                	
+								<a id="txt61" href="/cn/zh/catalog/categories/departments/dining/21825/">
+									餐桌
+								</a>
+							
+								<a id="txt62" href="/cn/zh/catalog/categories/departments/dining/25219/">
+									餐椅
+								</a>
+							
+								<a id="txt63" href="/cn/zh/catalog/categories/departments/dining/19145/">
+									餐厅桌椅
+								</a>
+							
+								<a id="txt64" href="/cn/zh/catalog/categories/departments/dining/dining_storage/">
+									餐具柜
+								</a>
+							
+								<a id="txt65" href="/cn/zh/catalog/categories/departments/dining/16244/">
+									吧桌和吧椅
+								</a>
+							
+								<a id="txt66" href="/cn/zh/catalog/categories/departments/dining/10728/">
+									圆凳和长凳
+								</a>
+							
+								<a id="txt67" href="/cn/zh/catalog/categories/departments/dining/19141/">
+									咖啡馆家具
+								</a>
+							
+								<a id="txt68" href="/cn/zh/catalog/categories/departments/dining/18715/">
+									高脚椅
+								</a>
+							
+								<a id="txt69" href="/cn/zh/catalog/categories/departments/dining/18733/">
+									儿童椅
+								</a>
+							
+		    			</div>
+		    		</div>
+		    		
+	                
+	                <div class="productCategoryContainer ">
+		                <span class="header">
+	                   		客厅
+						</span>
+    	                <div class="textContainer">
+    	                	
+								<a id="txt71" href="/cn/zh/catalog/categories/departments/living_room/39130/">
+									所有沙发
+								</a>
+							
+								<a id="txt72" href="/cn/zh/catalog/categories/departments/living_room/living_room_rugs/">
+									地毯
+								</a>
+							
+								<a id="txt73" href="/cn/zh/catalog/categories/departments/living_room/29882/">
+									客厅储物系列
+								</a>
+							
+								<a id="txt74" href="/cn/zh/catalog/categories/departments/living_room/10661/">
+									布艺沙发
+								</a>
+							
+								<a id="txt75" href="/cn/zh/catalog/categories/departments/living_room/18750/">
+									顶灯
+								</a>
+							
+								<a id="txt76" href="/cn/zh/catalog/categories/departments/living_room/10382/">
+									书柜
+								</a>
+							
+								<a id="txt77" href="/cn/zh/catalog/categories/departments/living_room/20503/">
+									壁灯
+								</a>
+							
+								<a id="txt78" href="/cn/zh/catalog/categories/departments/living_room/10475/">
+									电视及视听类家具
+								</a>
+							
+								<a id="txt79" href="/cn/zh/catalog/categories/departments/living_room/10662/">
+									皮革与涂层布艺沙发
+								</a>
+							
+								<a id="txt710" href="/cn/zh/catalog/categories/departments/living_room/10659/">
+									靠垫和靠垫套
+								</a>
+							
+								<a id="txt711" href="/cn/zh/catalog/categories/departments/living_room/11465/">
+									搁架单元
+								</a>
+							
+								<a id="txt712" href="/cn/zh/catalog/categories/departments/living_room/10663/">
+									沙发床
+								</a>
+							
+								<a id="txt713" href="/cn/zh/catalog/categories/departments/living_room/18891/">
+									窗帘杆和轨道　
+								</a>
+							
+								<a id="txt714" href="/cn/zh/catalog/categories/departments/living_room/10731/">
+									落地灯
+								</a>
+							
+								<a id="txt715" href="/cn/zh/catalog/categories/departments/living_room/10732/">
+									台灯
+								</a>
+							
+								<a id="txt716" href="/cn/zh/catalog/categories/departments/living_room/10384/">
+									橱柜和展示柜
+								</a>
+							
+								<a id="txt717" href="/cn/zh/catalog/categories/departments/living_room/10654/">
+									窗帘和百页帘
+								</a>
+							
+								<a id="txt718" href="/cn/zh/catalog/categories/departments/living_room/16238/">
+									组合沙发
+								</a>
+							
+								<a id="txt719" href="/cn/zh/catalog/categories/departments/living_room/10705/">
+									茶几和边桌
+								</a>
+							
+								<a id="txt720" href="/cn/zh/catalog/categories/departments/living_room/workspaces_integrated_lighting/">
+									内置照明
+								</a>
+							
+								<a id="txt721" href="/cn/zh/catalog/categories/departments/living_room/16239/">
+									单人沙发/扶手椅
+								</a>
+							
+								<a id="txt722" href="/cn/zh/catalog/categories/departments/living_room/20528/">
+									毯子和休闲毯
+								</a>
+							
+								<a id="txt723" href="/cn/zh/catalog/categories/departments/living_room/30454/">
+									餐边柜和长几
+								</a>
+							
+								<a id="txt724" href="/cn/zh/catalog/categories/departments/living_room/10655/">
+									布料和缝纫用品
+								</a>
+							
+								<a id="txt725" href="/cn/zh/catalog/categories/departments/living_room/10803/">
+									灯罩、灯座和电线
+								</a>
+							
+								<a id="txt726" href="/cn/zh/catalog/categories/departments/living_room/20926/">
+									脚凳和矮凳
+								</a>
+							
+								<a id="txt727" href="/cn/zh/catalog/categories/departments/living_room/10398/">
+									连壁搁板
+								</a>
+							
+								<a id="txt728" href="/cn/zh/catalog/categories/departments/living_room/10550/">
+									储物盒和储物篮
+								</a>
+							
+								<a id="txt729" href="/cn/zh/catalog/categories/departments/living_room/10664/">
+									备用沙发套
+								</a>
+							
+								<a id="txt730" href="/cn/zh/catalog/categories/departments/living_room/20506/">
+									射灯
+								</a>
+							
+								<a id="txt731" href="/cn/zh/catalog/categories/departments/living_room/10744/">
+									灯泡和配件
+								</a>
+							
+								<a id="txt732" href="/cn/zh/catalog/categories/departments/living_room/31785/">
+									额外支腿
+								</a>
+							
+								<a id="txt733" href="/cn/zh/catalog/categories/departments/living_room/20515/">
+									LED灯具
+								</a>
+							
+								<a id="txt734" href="/cn/zh/catalog/categories/departments/living_room/20855/">
+									贵妃椅
+								</a>
+							
+		    			</div>
+		    		</div>
+		    		
+	                
+	                <div class="productCategoryContainer ">
+		                <span class="header">
+	                   		卧室
+						</span>
+    	                <div class="textContainer">
+    	                	
+								<a id="txt81" href="/cn/zh/catalog/categories/departments/bedroom/24829/">
+									木座弹簧床垫
+								</a>
+							
+								<a id="txt82" href="/cn/zh/catalog/categories/departments/bedroom/19053/">
+									衣柜
+								</a>
+							
+								<a id="txt83" href="/cn/zh/catalog/categories/departments/bedroom/16284/">
+									双人床
+								</a>
+							
+								<a id="txt84" href="/cn/zh/catalog/categories/departments/bedroom/29879/">
+									固定式衣柜
+								</a>
+							
+								<a id="txt85" href="/cn/zh/catalog/categories/departments/bedroom/10651/">
+									床上用品
+								</a>
+							
+								<a id="txt86" href="/cn/zh/catalog/categories/departments/bedroom/24828/">
+									弹簧床垫
+								</a>
+							
+								<a id="txt87" href="/cn/zh/catalog/categories/departments/bedroom/18750/">
+									顶灯
+								</a>
+							
+								<a id="txt88" href="/cn/zh/catalog/categories/departments/bedroom/16285/">
+									单人床
+								</a>
+							
+								<a id="txt89" href="/cn/zh/catalog/categories/departments/bedroom/20503/">
+									壁灯
+								</a>
+							
+								<a id="txt810" href="/cn/zh/catalog/categories/departments/bedroom/11466/">
+									开放式衣类储物系列
+								</a>
+							
+								<a id="txt811" href="/cn/zh/catalog/categories/departments/bedroom/24823/">
+									泡沫和乳胶床垫
+								</a>
+							
+								<a id="txt812" href="/cn/zh/catalog/categories/departments/bedroom/20529/">
+									被子
+								</a>
+							
+								<a id="txt813" href="/cn/zh/catalog/categories/departments/bedroom/10732/">
+									台灯
+								</a>
+							
+								<a id="txt814" href="/cn/zh/catalog/categories/departments/bedroom/24826/">
+									床褥
+								</a>
+							
+								<a id="txt815" href="/cn/zh/catalog/categories/departments/bedroom/29880/">
+									开放式衣柜
+								</a>
+							
+								<a id="txt816" href="/cn/zh/catalog/categories/departments/bedroom/20533/">
+									枕头
+								</a>
+							
+								<a id="txt817" href="/cn/zh/catalog/categories/departments/bedroom/28433/">
+									沙发床
+								</a>
+							
+								<a id="txt818" href="/cn/zh/catalog/categories/departments/bedroom/19037/">
+									客用床和坐卧两用床
+								</a>
+							
+								<a id="txt819" href="/cn/zh/catalog/categories/departments/bedroom/24824/">
+									床垫保护垫和枕套
+								</a>
+							
+								<a id="txt820" href="/cn/zh/catalog/categories/departments/bedroom/20527/">
+									床罩
+								</a>
+							
+								<a id="txt821" href="/cn/zh/catalog/categories/departments/bedroom/10451/">
+									抽屉柜
+								</a>
+							
+								<a id="txt822" href="/cn/zh/catalog/categories/departments/bedroom/10731/">
+									落地灯
+								</a>
+							
+								<a id="txt823" href="/cn/zh/catalog/categories/departments/bedroom/25205/">
+									带储物床
+								</a>
+							
+								<a id="txt824" href="/cn/zh/catalog/categories/departments/bedroom/24827/">
+									木条床板
+								</a>
+							
+								<a id="txt825" href="/cn/zh/catalog/categories/departments/bedroom/10803/">
+									灯罩、灯座和电线
+								</a>
+							
+								<a id="txt826" href="/cn/zh/catalog/categories/departments/bedroom/10452/">
+									衣物储藏件
+								</a>
+							
+								<a id="txt827" href="/cn/zh/catalog/categories/departments/bedroom/10659/">
+									靠垫和靠垫套
+								</a>
+							
+								<a id="txt828" href="/cn/zh/catalog/categories/departments/bedroom/bedroom_rugs/">
+									地毯
+								</a>
+							
+								<a id="txt829" href="/cn/zh/catalog/categories/departments/bedroom/20506/">
+									射灯
+								</a>
+							
+								<a id="txt830" href="/cn/zh/catalog/categories/departments/bedroom/24825/">
+									床垫底座
+								</a>
+							
+								<a id="txt831" href="/cn/zh/catalog/categories/departments/bedroom/16274/">
+									挂钩和衣架
+								</a>
+							
+								<a id="txt832" href="/cn/zh/catalog/categories/departments/bedroom/20489/">
+									镜子
+								</a>
+							
+								<a id="txt833" href="/cn/zh/catalog/categories/departments/bedroom/19039/">
+									高架床和双层床
+								</a>
+							
+								<a id="txt834" href="/cn/zh/catalog/categories/departments/bedroom/bedroom_integrated_lighting/">
+									内置照明
+								</a>
+							
+								<a id="txt835" href="/cn/zh/catalog/categories/departments/bedroom/20656/">
+									床边桌
+								</a>
+							
+								<a id="txt836" href="/cn/zh/catalog/categories/departments/bedroom/20528/">
+									毯子和休闲毯
+								</a>
+							
+								<a id="txt837" href="/cn/zh/catalog/categories/departments/bedroom/19059/">
+									床用储物件
+								</a>
+							
+								<a id="txt838" href="/cn/zh/catalog/categories/departments/bedroom/10744/">
+									灯泡和配件
+								</a>
+							
+								<a id="txt839" href="/cn/zh/catalog/categories/departments/bedroom/10654/">
+									窗帘和百页帘
+								</a>
+							
+								<a id="txt840" href="/cn/zh/catalog/categories/departments/bedroom/20515/">
+									LED灯具
+								</a>
+							
+								<a id="txt841" href="/cn/zh/catalog/categories/departments/bedroom/20657/">
+									梳妆台
+								</a>
+							
+								<a id="txt842" href="/cn/zh/catalog/categories/departments/bedroom/18891/">
+									窗帘杆和轨道　
+								</a>
+							
+								<a id="txt843" href="/cn/zh/catalog/categories/departments/bedroom/10655/">
+									布料和缝纫用品
+								</a>
+							
+								<a id="txt844" href="/cn/zh/catalog/categories/departments/bedroom/10398/">
+									连壁搁板
+								</a>
+							
+								<a id="txt845" href="/cn/zh/catalog/categories/departments/bedroom/19064/">
+									床头板
+								</a>
+							
+		    			</div>
+		    		</div>
+		    		
+	                
+		                </div>
+		                <div class="productCategoryDivider productCategoryDividerFirst"></div>
+		                <div class="productCategoryDivider"></div>
+		                <div class="productCategoryDivider"></div>
+		                <div class="productCategoryDivider"></div>
+	                <div class="productCategoryContainerWrapper">
+	                <div class="productCategoryContainer productCategoryContainerNoBorder">
+		                <span class="header">
+	                   		家庭工作室
+						</span>
+    	                <div class="textContainer">
+    	                	
+								<a id="txt91" href="/cn/zh/catalog/categories/departments/workspaces/20649/">
+									书桌和电脑桌
+								</a>
+							
+								<a id="txt92" href="/cn/zh/catalog/categories/departments/workspaces/20502/">
+									工作灯
+								</a>
+							
+								<a id="txt93" href="/cn/zh/catalog/categories/departments/workspaces/10398/">
+									连壁搁板
+								</a>
+							
+								<a id="txt94" href="/cn/zh/catalog/categories/departments/workspaces/20515/">
+									LED灯具
+								</a>
+							
+								<a id="txt95" href="/cn/zh/catalog/categories/departments/workspaces/10385/">
+									储物柜
+								</a>
+							
+								<a id="txt96" href="/cn/zh/catalog/categories/departments/workspaces/20652/">
+									办公椅
+								</a>
+							
+								<a id="txt97" href="/cn/zh/catalog/categories/departments/workspaces/10712/">
+									桌面和桌腿
+								</a>
+							
+								<a id="txt98" href="/cn/zh/catalog/categories/departments/workspaces/20503/">
+									壁灯
+								</a>
+							
+								<a id="txt99" href="/cn/zh/catalog/categories/departments/workspaces/10711/">
+									抽屉柜
+								</a>
+							
+								<a id="txt910" href="/cn/zh/catalog/categories/departments/workspaces/10803/">
+									灯罩、灯座和电线
+								</a>
+							
+								<a id="txt911" href="/cn/zh/catalog/categories/departments/workspaces/16195/">
+									电线整理和配件
+								</a>
+							
+								<a id="txt912" href="/cn/zh/catalog/categories/departments/workspaces/10382/">
+									书柜
+								</a>
+							
+								<a id="txt913" href="/cn/zh/catalog/categories/departments/workspaces/16213/">
+									筐子和袋子
+								</a>
+							
+								<a id="txt914" href="/cn/zh/catalog/categories/departments/workspaces/10731/">
+									落地灯
+								</a>
+							
+								<a id="txt915" href="/cn/zh/catalog/categories/departments/workspaces/workspaces_integrated_lighting/">
+									内置照明
+								</a>
+							
+								<a id="txt916" href="/cn/zh/catalog/categories/departments/workspaces/11465/">
+									搁架单元
+								</a>
+							
+								<a id="txt917" href="/cn/zh/catalog/categories/departments/workspaces/10551/">
+									文件和多媒体储藏件
+								</a>
+							
+								<a id="txt918" href="/cn/zh/catalog/categories/departments/workspaces/10384/">
+									橱柜和展示柜
+								</a>
+							
+								<a id="txt919" href="/cn/zh/catalog/categories/departments/workspaces/18750/">
+									顶灯
+								</a>
+							
+								<a id="txt920" href="/cn/zh/catalog/categories/departments/workspaces/10732/">
+									台灯
+								</a>
+							
+								<a id="txt921" href="/cn/zh/catalog/categories/departments/workspaces/30454/">
+									餐边柜和长几
+								</a>
+							
+								<a id="txt922" href="/cn/zh/catalog/categories/departments/workspaces/20506/">
+									射灯
+								</a>
+							
+								<a id="txt923" href="/cn/zh/catalog/categories/departments/workspaces/10744/">
+									灯泡和配件
+								</a>
+							
+		    			</div>
+		    		</div>
+		    		
+	                
+	                <div class="productCategoryContainer ">
+		                <span class="header">
+	                   		儿童天地
+						</span>
+    	                <div class="textContainer">
+    	                	
+								<a id="txt101" href="/cn/zh/catalog/categories/departments/childrens_ikea/18723/">
+									儿童床
+								</a>
+							
+								<a id="txt102" href="/cn/zh/catalog/categories/departments/childrens_ikea/24708/">
+									儿童床8-12
+								</a>
+							
+								<a id="txt103" href="/cn/zh/catalog/categories/departments/childrens_ikea/18755/">
+									婴儿床
+								</a>
+							
+								<a id="txt104" href="/cn/zh/catalog/categories/departments/childrens_ikea/18724/">
+									儿童床垫 (3-7岁)
+								</a>
+							
+								<a id="txt105" href="/cn/zh/catalog/categories/departments/childrens_ikea/24709/">
+									儿童床垫（8-12岁）
+								</a>
+							
+								<a id="txt106" href="/cn/zh/catalog/categories/departments/childrens_ikea/18690/">
+									婴儿纺织品
+								</a>
+							
+								<a id="txt107" href="/cn/zh/catalog/categories/departments/childrens_ikea/24710/">
+									儿童专用纺织品（8-12岁）
+								</a>
+							
+								<a id="txt108" href="/cn/zh/catalog/categories/departments/childrens_ikea/18730/">
+									儿童纺织品（3-7岁）
+								</a>
+							
+								<a id="txt109" href="/cn/zh/catalog/categories/departments/childrens_ikea/18682/">
+									婴儿床垫
+								</a>
+							
+								<a id="txt1010" href="/cn/zh/catalog/categories/departments/childrens_ikea/24713/">
+									儿童桌椅（8-12岁）
+								</a>
+							
+								<a id="txt1011" href="/cn/zh/catalog/categories/departments/childrens_ikea/18716/">
+									婴儿玩具
+								</a>
+							
+								<a id="txt1012" href="/cn/zh/catalog/categories/departments/childrens_ikea/18767/">
+									小家具
+								</a>
+							
+								<a id="txt1013" href="/cn/zh/catalog/categories/departments/childrens_ikea/18706/">
+									储物家具
+								</a>
+							
+								<a id="txt1014" href="/cn/zh/catalog/categories/departments/childrens_ikea/18701/">
+									换衣桌和婴儿护理
+								</a>
+							
+								<a id="txt1015" href="/cn/zh/catalog/categories/departments/childrens_ikea/18734/">
+									玩具和玩耍
+								</a>
+							
+								<a id="txt1016" href="/cn/zh/catalog/categories/departments/childrens_ikea/18835/">
+									储物系列
+								</a>
+							
+								<a id="txt1017" href="/cn/zh/catalog/categories/departments/childrens_ikea/18762/">
+									儿童镜子
+								</a>
+							
+								<a id="txt1018" href="/cn/zh/catalog/categories/departments/childrens_ikea/18715/">
+									高脚椅
+								</a>
+							
+								<a id="txt1019" href="/cn/zh/catalog/categories/departments/childrens_ikea/18733/">
+									儿童椅
+								</a>
+							
+								<a id="txt1020" href="/cn/zh/catalog/categories/departments/childrens_ikea/31772/">
+									婴儿餐具
+								</a>
+							
+								<a id="txt1021" href="/cn/zh/catalog/categories/departments/childrens_ikea/20475/">
+									小型储物装置
+								</a>
+							
+								<a id="txt1022" href="/cn/zh/catalog/categories/departments/childrens_ikea/24711/">
+									儿童用品8-12
+								</a>
+							
+								<a id="txt1023" href="/cn/zh/catalog/categories/departments/childrens_ikea/18714/">
+									儿童餐具
+								</a>
+							
+								<a id="txt1024" href="/cn/zh/catalog/categories/departments/childrens_ikea/24712/">
+									儿童照明（8-12岁）
+								</a>
+							
+								<a id="txt1025" href="/cn/zh/catalog/categories/departments/childrens_ikea/16249/">
+									安全
+								</a>
+							
+								<a id="txt1026" href="/cn/zh/catalog/categories/departments/childrens_ikea/18773/">
+									儿童灯具
+								</a>
+							
+		    			</div>
+		    		</div>
+		    		
+	                
+	                <div class="productCategoryContainer ">
+		                <span class="header">
+	                   		门厅
+						</span>
+    	                <div class="textContainer">
+    	                	
+								<a id="txt111" href="/cn/zh/catalog/categories/departments/hallway/18750/">
+									顶灯
+								</a>
+							
+								<a id="txt112" href="/cn/zh/catalog/categories/departments/hallway/20503/">
+									壁灯
+								</a>
+							
+								<a id="txt113" href="/cn/zh/catalog/categories/departments/hallway/10451/">
+									抽屉柜
+								</a>
+							
+								<a id="txt114" href="/cn/zh/catalog/categories/departments/hallway/10398/">
+									连壁搁板
+								</a>
+							
+								<a id="txt115" href="/cn/zh/catalog/categories/departments/hallway/10550/">
+									储物盒和储物篮
+								</a>
+							
+								<a id="txt116" href="/cn/zh/catalog/categories/departments/hallway/10732/">
+									台灯
+								</a>
+							
+								<a id="txt117" href="/cn/zh/catalog/categories/departments/hallway/11466/">
+									开放式衣类储物系列
+								</a>
+							
+								<a id="txt118" href="/cn/zh/catalog/categories/departments/hallway/bedroom_integrated_lighting/">
+									内置照明
+								</a>
+							
+								<a id="txt119" href="/cn/zh/catalog/categories/departments/hallway/10454/">
+									鞋架和衣帽架
+								</a>
+							
+								<a id="txt1110" href="/cn/zh/catalog/categories/departments/hallway/20506/">
+									射灯
+								</a>
+							
+								<a id="txt1111" href="/cn/zh/catalog/categories/departments/hallway/20489/">
+									镜子
+								</a>
+							
+								<a id="txt1112" href="/cn/zh/catalog/categories/departments/hallway/10456/">
+									鞋柜
+								</a>
+							
+								<a id="txt1113" href="/cn/zh/catalog/categories/departments/hallway/10728/">
+									圆凳和长凳
+								</a>
+							
+								<a id="txt1114" href="/cn/zh/catalog/categories/departments/hallway/10731/">
+									落地灯
+								</a>
+							
+								<a id="txt1115" href="/cn/zh/catalog/categories/departments/hallway/10455/">
+									衣帽架
+								</a>
+							
+								<a id="txt1116" href="/cn/zh/catalog/categories/departments/hallway/10803/">
+									灯罩、灯座和电线
+								</a>
+							
+								<a id="txt1117" href="/cn/zh/catalog/categories/departments/hallway/19053/">
+									衣柜
+								</a>
+							
+								<a id="txt1118" href="/cn/zh/catalog/categories/departments/hallway/10452/">
+									衣物储藏件
+								</a>
+							
+								<a id="txt1119" href="/cn/zh/catalog/categories/departments/hallway/29879/">
+									固定式衣柜
+								</a>
+							
+								<a id="txt1120" href="/cn/zh/catalog/categories/departments/hallway/16274/">
+									挂钩和衣架
+								</a>
+							
+								<a id="txt1121" href="/cn/zh/catalog/categories/departments/hallway/10744/">
+									灯泡和配件
+								</a>
+							
+								<a id="txt1122" href="/cn/zh/catalog/categories/departments/hallway/20515/">
+									LED灯具
+								</a>
+							
+								<a id="txt1123" href="/cn/zh/catalog/categories/departments/hallway/29880/">
+									开放式衣柜
+								</a>
+							
+		    			</div>
+		    		</div>
+		    		
+	                
+	                <div class="productCategoryContainer ">
+		                <span class="header">
+	                   		第二储物空间
+						</span>
+    	                <div class="textContainer">
+    	                	
+								<a id="txt121" href="/cn/zh/catalog/categories/departments/secondary_storage/10550/">
+									储物盒和储物篮
+								</a>
+							
+								<a id="txt122" href="/cn/zh/catalog/categories/departments/secondary_storage/10397/">
+									储物系列
+								</a>
+							
+								<a id="txt123" href="/cn/zh/catalog/categories/departments/secondary_storage/11466/">
+									开放式衣类储物系列
+								</a>
+							
+								<a id="txt124" href="/cn/zh/catalog/categories/departments/secondary_storage/16213/">
+									筐子和袋子
+								</a>
+							
+								<a id="txt125" href="/cn/zh/catalog/categories/departments/secondary_storage/10452/">
+									衣物储藏件
+								</a>
+							
+								<a id="txt126" href="/cn/zh/catalog/categories/departments/secondary_storage/16200/">
+									食品贮藏室
+								</a>
+							
+								<a id="txt127" href="/cn/zh/catalog/categories/departments/secondary_storage/16274/">
+									挂钩和衣架
+								</a>
+							
+								<a id="txt128" href="/cn/zh/catalog/categories/departments/secondary_storage/10398/">
+									连壁搁板
+								</a>
+							
+								<a id="txt129" href="/cn/zh/catalog/categories/departments/secondary_storage/18741/">
+									垃圾分类
+								</a>
+							
+								<a id="txt1210" href="/cn/zh/catalog/categories/departments/secondary_storage/10455/">
+									衣帽架
+								</a>
+							
+								<a id="txt1211" href="/cn/zh/catalog/categories/departments/secondary_storage/16292/">
+									工具和安装件
+								</a>
+							
+								<a id="txt1212" href="/cn/zh/catalog/categories/departments/secondary_storage/19053/">
+									衣柜
+								</a>
+							
+		    			</div>
+		    		</div>
+		    		
+	                
+		                </div>
+		                <div class="productCategoryDivider productCategoryDividerFirst"></div>
+		                <div class="productCategoryDivider"></div>
+		                <div class="productCategoryDivider"></div>
+		                <div class="productCategoryDivider"></div>
+	                <div class="productCategoryContainerWrapper">
+	                <div class="productCategoryContainer productCategoryContainerNoBorder">
+		                <span class="header">
+	                   		洗衣房
+						</span>
+    	                <div class="textContainer">
+    	                	
+								<a id="txt131" href="/cn/zh/catalog/categories/departments/laundry/20597/">
+									衣物洗涤和清洁
+								</a>
+							
+								<a id="txt132" href="/cn/zh/catalog/categories/departments/laundry/11466/">
+									开放式衣类储物系列
+								</a>
+							
+								<a id="txt133" href="/cn/zh/catalog/categories/departments/laundry/10452/">
+									衣物储藏件
+								</a>
+							
+								<a id="txt134" href="/cn/zh/catalog/categories/departments/laundry/16274/">
+									挂钩和衣架
+								</a>
+							
+		    			</div>
+		    		</div>
+		    		
+	                
+	                <div class="productCategoryContainer ">
+		                <span class="header">
+	                   		浴室
+						</span>
+    	                <div class="textContainer">
+    	                	
+								<a id="txt141" href="/cn/zh/catalog/categories/departments/bathroom/20520/">
+									毛巾
+								</a>
+							
+								<a id="txt142" href="/cn/zh/catalog/categories/departments/bathroom/20719/">
+									洗脸池柜
+								</a>
+							
+								<a id="txt143" href="/cn/zh/catalog/categories/departments/bathroom/20802/">
+									浴室储物
+								</a>
+							
+								<a id="txt144" href="/cn/zh/catalog/categories/departments/bathroom/20519/">
+									浴室防滑垫
+								</a>
+							
+								<a id="txt145" href="/cn/zh/catalog/categories/departments/bathroom/20723/">
+									洗脸池
+								</a>
+							
+								<a id="txt146" href="/cn/zh/catalog/categories/departments/bathroom/18908/">
+									浴帘
+								</a>
+							
+								<a id="txt147" href="/cn/zh/catalog/categories/departments/bathroom/20724/">
+									水龙头
+								</a>
+							
+								<a id="txt148" href="/cn/zh/catalog/categories/departments/bathroom/20490/">
+									浴室镜
+								</a>
+							
+								<a id="txt149" href="/cn/zh/catalog/categories/departments/bathroom/10555/">
+									浴室配件
+								</a>
+							
+								<a id="txt1410" href="/cn/zh/catalog/categories/departments/bathroom/10736/">
+									浴室照明
+								</a>
+							
+		    			</div>
+		    		</div>
+		    		
+	                
+	                <div class="productCategoryContainer ">
+		                <span class="header">
+	                   		灯具
+						</span>
+    	                <div class="textContainer">
+    	                	
+								<a id="txt151" href="/cn/zh/catalog/categories/departments/lighting/18750/">
+									顶灯
+								</a>
+							
+								<a id="txt152" href="/cn/zh/catalog/categories/departments/lighting/10732/">
+									台灯
+								</a>
+							
+								<a id="txt153" href="/cn/zh/catalog/categories/departments/lighting/10731/">
+									落地灯
+								</a>
+							
+								<a id="txt154" href="/cn/zh/catalog/categories/departments/lighting/20502/">
+									工作灯
+								</a>
+							
+								<a id="txt155" href="/cn/zh/catalog/categories/departments/lighting/10803/">
+									灯罩、灯座和电线
+								</a>
+							
+								<a id="txt156" href="/cn/zh/catalog/categories/departments/lighting/16280/">
+									内置灯具
+								</a>
+							
+								<a id="txt157" href="/cn/zh/catalog/categories/departments/lighting/20506/">
+									射灯
+								</a>
+							
+								<a id="txt158" href="/cn/zh/catalog/categories/departments/lighting/20503/">
+									壁灯
+								</a>
+							
+								<a id="txt159" href="/cn/zh/catalog/categories/departments/lighting/18773/">
+									儿童灯具
+								</a>
+							
+								<a id="txt1510" href="/cn/zh/catalog/categories/departments/lighting/10744/">
+									灯泡和配件
+								</a>
+							
+								<a id="txt1511" href="/cn/zh/catalog/categories/departments/lighting/35165/">
+									电池和充电器
+								</a>
+							
+								<a id="txt1512" href="/cn/zh/catalog/categories/departments/lighting/20515/">
+									LED灯具
+								</a>
+							
+								<a id="txt1513" href="/cn/zh/catalog/categories/departments/lighting/14971/">
+									装饰性灯具
+								</a>
+							
+								<a id="txt1514" href="/cn/zh/catalog/categories/departments/lighting/17897/">
+									户外照明
+								</a>
+							
+								<a id="txt1515" href="/cn/zh/catalog/categories/departments/lighting/10736/">
+									浴室照明
+								</a>
+							
+								<a id="txt1516" href="/cn/zh/catalog/categories/departments/lighting/24712/">
+									儿童照明（8-12岁）
+								</a>
+							
+		    			</div>
+		    		</div>
+		    		
+	                
+	                <div class="productCategoryContainer ">
+		                <span class="header">
+	                   		家居装饰品
+						</span>
+    	                <div class="textContainer">
+    	                	
+								<a id="txt161" href="/cn/zh/catalog/categories/departments/decoration/10757/">
+									图片和框架
+								</a>
+							
+								<a id="txt162" href="/cn/zh/catalog/categories/departments/decoration/10760/">
+									蜡烛和蜡台
+								</a>
+							
+								<a id="txt163" href="/cn/zh/catalog/categories/departments/decoration/10768/">
+									花盆和花架
+								</a>
+							
+								<a id="txt164" href="/cn/zh/catalog/categories/departments/decoration/10769/">
+									花瓶和碗
+								</a>
+							
+								<a id="txt165" href="/cn/zh/catalog/categories/departments/decoration/24924/">
+									装饰配件
+								</a>
+							
+								<a id="txt166" href="/cn/zh/catalog/categories/departments/decoration/10759/">
+									时钟
+								</a>
+							
+								<a id="txt167" href="/cn/zh/catalog/categories/departments/decoration/20489/">
+									镜子
+								</a>
+							
+								<a id="txt168" href="/cn/zh/catalog/categories/departments/decoration/16309/">
+									节日装饰
+								</a>
+							
+								<a id="txt169" href="/cn/zh/catalog/categories/departments/decoration/25227/">
+									纸品屋
+								</a>
+							
+		    			</div>
+		    		</div>
+		    		
+	                
+		                </div>
+		                <div class="productCategoryDivider productCategoryDividerFirst"></div>
+		                <div class="productCategoryDivider"></div>
+		                <div class="productCategoryDivider"></div>
+		                <div class="productCategoryDivider"></div>
+	                <div class="productCategoryContainerWrapper">
+	                <div class="productCategoryContainer productCategoryContainerNoBorder">
+		                <span class="header">
+	                   		小型储物
+						</span>
+    	                <div class="textContainer">
+    	                	
+								<a id="txt171" href="/cn/zh/catalog/categories/departments/small_storage/10550/">
+									储物盒和储物篮
+								</a>
+							
+								<a id="txt172" href="/cn/zh/catalog/categories/departments/small_storage/10551/">
+									文件和多媒体储藏件
+								</a>
+							
+								<a id="txt173" href="/cn/zh/catalog/categories/departments/small_storage/16274/">
+									挂钩和衣架
+								</a>
+							
+								<a id="txt174" href="/cn/zh/catalog/categories/departments/small_storage/16213/">
+									筐子和袋子
+								</a>
+							
+								<a id="txt175" href="/cn/zh/catalog/categories/departments/small_storage/18741/">
+									垃圾分类
+								</a>
+							
+								<a id="txt176" href="/cn/zh/catalog/categories/departments/small_storage/10452/">
+									衣物储藏件
+								</a>
+							
+								<a id="txt177" href="/cn/zh/catalog/categories/departments/small_storage/10555/">
+									浴室配件
+								</a>
+							
+								<a id="txt178" href="/cn/zh/catalog/categories/departments/small_storage/15937/">
+									食品储存与整理
+								</a>
+							
+		    			</div>
+		    		</div>
+		    		
+	                
+	                <div class="productCategoryContainer ">
+		                <span class="header">
+	                   		纺织品
+						</span>
+    	                <div class="textContainer">
+    	                	
+								<a id="txt181" href="/cn/zh/catalog/categories/departments/Textiles/10653/">
+									地毯
+								</a>
+							
+								<a id="txt182" href="/cn/zh/catalog/categories/departments/Textiles/10651/">
+									床上用品
+								</a>
+							
+								<a id="txt183" href="/cn/zh/catalog/categories/departments/Textiles/20520/">
+									毛巾
+								</a>
+							
+								<a id="txt184" href="/cn/zh/catalog/categories/departments/Textiles/20519/">
+									浴室防滑垫
+								</a>
+							
+								<a id="txt185" href="/cn/zh/catalog/categories/departments/Textiles/20529/">
+									被子
+								</a>
+							
+								<a id="txt186" href="/cn/zh/catalog/categories/departments/Textiles/20533/">
+									枕头
+								</a>
+							
+								<a id="txt187" href="/cn/zh/catalog/categories/departments/Textiles/18908/">
+									浴帘
+								</a>
+							
+								<a id="txt188" href="/cn/zh/catalog/categories/departments/Textiles/10654/">
+									窗帘和百页帘
+								</a>
+							
+								<a id="txt189" href="/cn/zh/catalog/categories/departments/Textiles/20527/">
+									床罩
+								</a>
+							
+								<a id="txt1810" href="/cn/zh/catalog/categories/departments/Textiles/18891/">
+									窗帘杆和轨道　
+								</a>
+							
+								<a id="txt1811" href="/cn/zh/catalog/categories/departments/Textiles/10655/">
+									布料和缝纫用品
+								</a>
+							
+								<a id="txt1812" href="/cn/zh/catalog/categories/departments/Textiles/10659/">
+									靠垫和靠垫套
+								</a>
+							
+								<a id="txt1813" href="/cn/zh/catalog/categories/departments/Textiles/20528/">
+									毯子和休闲毯
+								</a>
+							
+								<a id="txt1814" href="/cn/zh/catalog/categories/departments/Textiles/18850/">
+									厨房纺织品
+								</a>
+							
+								<a id="txt1815" href="/cn/zh/catalog/categories/departments/Textiles/20538/">
+									餐桌用纺织品
+								</a>
+							
+								<a id="txt1816" href="/cn/zh/catalog/categories/departments/Textiles/18730/">
+									儿童纺织品（3-7岁）
+								</a>
+							
+								<a id="txt1817" href="/cn/zh/catalog/categories/departments/Textiles/18690/">
+									婴儿纺织品
+								</a>
+							
+								<a id="txt1818" href="/cn/zh/catalog/categories/departments/Textiles/24710/">
+									儿童专用纺织品（8-12岁）
+								</a>
+							
+								<a id="txt1819" href="/cn/zh/catalog/categories/departments/Textiles/24824/">
+									床垫保护垫和枕套
+								</a>
+							
+		    			</div>
+		    		</div>
+		    		
+	                
+	                <div class="productCategoryContainer ">
+		                <span class="header">
+	                   		烹饪
+						</span>
+    	                <div class="textContainer">
+    	                	
+								<a id="txt191" href="/cn/zh/catalog/categories/departments/cooking/20633/">
+									深锅和烧锅
+								</a>
+							
+								<a id="txt192" href="/cn/zh/catalog/categories/departments/cooking/20624/">
+									煎锅和炒锅
+								</a>
+							
+								<a id="txt193" href="/cn/zh/catalog/categories/departments/cooking/15937/">
+									食品储存与整理
+								</a>
+							
+								<a id="txt194" href="/cn/zh/catalog/categories/departments/cooking/20636/">
+									烘焙器具
+								</a>
+							
+								<a id="txt195" href="/cn/zh/catalog/categories/departments/cooking/15927/">
+									烹饪配件
+								</a>
+							
+								<a id="txt196" href="/cn/zh/catalog/categories/departments/cooking/20647/">
+									厨具
+								</a>
+							
+								<a id="txt197" href="/cn/zh/catalog/categories/departments/cooking/15934/">
+									刀具和砧板
+								</a>
+							
+								<a id="txt198" href="/cn/zh/catalog/categories/departments/cooking/15928/">
+									烤箱器皿
+								</a>
+							
+								<a id="txt199" href="/cn/zh/catalog/categories/departments/cooking/18850/">
+									厨房纺织品
+								</a>
+							
+								<a id="txt1910" href="/cn/zh/catalog/categories/departments/cooking/15935/">
+									搅拌和测量工具
+								</a>
+							
+								<a id="txt1911" href="/cn/zh/catalog/categories/departments/cooking/15938/">
+									洗碗配件
+								</a>
+							
+		    			</div>
+		    		</div>
+		    		
+	                
+	                <div class="productCategoryContainer ">
+		                <span class="header">
+	                   		用餐
+						</span>
+    	                <div class="textContainer">
+    	                	
+								<a id="txt201" href="/cn/zh/catalog/categories/departments/eating/18860/">
+									餐具
+								</a>
+							
+								<a id="txt202" href="/cn/zh/catalog/categories/departments/eating/18868/">
+									玻璃器皿和水壶
+								</a>
+							
+								<a id="txt203" href="/cn/zh/catalog/categories/departments/eating/20538/">
+									餐桌用纺织品
+								</a>
+							
+								<a id="txt204" href="/cn/zh/catalog/categories/departments/eating/20560/">
+									餐巾纸和纸巾架
+								</a>
+							
+								<a id="txt205" href="/cn/zh/catalog/categories/departments/eating/18865/">
+									刀叉餐具
+								</a>
+							
+								<a id="txt206" href="/cn/zh/catalog/categories/departments/eating/16043/">
+									上菜用具
+								</a>
+							
+								<a id="txt207" href="/cn/zh/catalog/categories/departments/eating/16044/">
+									咖啡和茶
+								</a>
+							
+								<a id="txt208" href="/cn/zh/catalog/categories/departments/eating/31772/">
+									婴儿餐具
+								</a>
+							
+								<a id="txt209" href="/cn/zh/catalog/categories/departments/eating/18714/">
+									儿童餐具
+								</a>
+							
+		    			</div>
+		    		</div>
+		    		
+	                
+		                </div>
+		                <div class="productCategoryDivider productCategoryDividerFirst"></div>
+		                <div class="productCategoryDivider"></div>
+		                <div class="productCategoryDivider"></div>
+		                <div class="productCategoryDivider"></div>
+	                <div class="productCategoryContainerWrapper">
+	                <div class="productCategoryContainer productCategoryContainerNoBorder">
+		                <span class="header">
+	                   		宜家俱乐部产品
+						</span>
+    	                <div class="textContainer">
+    	                	
+								<a id="txt211" href="/cn/zh/catalog/categories/departments/ikea_family_products/35775/">
+									自行车和自行车配件
+								</a>
+							
+								<a id="txt212" href="/cn/zh/catalog/categories/departments/ikea_family_products/16248/">
+									旅行袋和旅行背包
+								</a>
+							
+								<a id="txt213" href="/cn/zh/catalog/categories/departments/ikea_family_products/16251/">
+									书和游戏
+								</a>
+							
+								<a id="txt214" href="/cn/zh/catalog/categories/departments/ikea_family_products/24847/">
+									游戏与休闲
+								</a>
+							
+								<a id="txt215" href="/cn/zh/catalog/categories/departments/ikea_family_products/16249/">
+									安全
+								</a>
+							
+		    			</div>
+		    		</div>
+		    		
+	                
+	                <div class="productCategoryContainer ">
+		                <span class="header">
+	                   		冬季节日
+						</span>
+    	                <div class="textContainer">
+    	                	
+								<a id="txt221" href="/cn/zh/catalog/categories/seasonal/winter_holidays/holiday_decoration/">
+									圣诞装饰
+								</a>
+							
+								<a id="txt222" href="/cn/zh/catalog/categories/seasonal/winter_holidays/14971/">
+									装饰性灯具
+								</a>
+							
+								<a id="txt223" href="/cn/zh/catalog/categories/seasonal/winter_holidays/btc_cooking_eating/">
+									烹饪和餐饮
+								</a>
+							
+								<a id="txt224" href="/cn/zh/catalog/categories/seasonal/winter_holidays/btc_textiles/">
+									纺织品
+								</a>
+							
+								<a id="txt225" href="/cn/zh/catalog/categories/seasonal/winter_holidays/18734/">
+									玩具和玩耍
+								</a>
+							
+		    			</div>
+		    		</div>
+		    		
+	                
+	                <div class="productCategoryContainer ">
+		                <span class="header">
+	                   		夏季灵感
+						</span>
+    	                <div class="textContainer">
+    	                	
+								<a id="txt231" href="/cn/zh/catalog/categories/seasonal/summer/cooking_and_eating/">
+									烹饪和用餐
+								</a>
+							
+								<a id="txt232" href="/cn/zh/catalog/categories/seasonal/summer/summer_decoration/">
+									夏日装饰
+								</a>
+							
+								<a id="txt233" href="/cn/zh/catalog/categories/seasonal/summer/summer_textiles/">
+									纺织品
+								</a>
+							
+								<a id="txt234" href="/cn/zh/catalog/categories/seasonal/summer/outdoor_pots_plants/">
+									户外花盆和植物
+								</a>
+							
+								<a id="txt235" href="/cn/zh/catalog/categories/seasonal/summer/14971/">
+									装饰性灯具
+								</a>
+							
+								<a id="txt236" href="/cn/zh/catalog/categories/seasonal/summer/24847/">
+									游戏与休闲
+								</a>
+							
+		    			</div>
+		    		</div>
+		    		
+	                
+	                <div class="productCategoryContainer ">
+		                <span class="header">
+	                   		开学季
+						</span>
+    	                <div class="textContainer">
+    	                	
+								<a id="txt241" href="/cn/zh/catalog/categories/seasonal/back_to_college/10550/">
+									储物盒和储物篮
+								</a>
+							
+								<a id="txt242" href="/cn/zh/catalog/categories/seasonal/back_to_college/20533/">
+									枕头
+								</a>
+							
+								<a id="txt243" href="/cn/zh/catalog/categories/seasonal/back_to_college/20529/">
+									被子
+								</a>
+							
+								<a id="txt244" href="/cn/zh/catalog/categories/seasonal/back_to_college/20649/">
+									书桌和电脑桌
+								</a>
+							
+								<a id="txt245" href="/cn/zh/catalog/categories/seasonal/back_to_college/16284/">
+									双人床
+								</a>
+							
+								<a id="txt246" href="/cn/zh/catalog/categories/seasonal/back_to_college/10757/">
+									图片和框架
+								</a>
+							
+								<a id="txt247" href="/cn/zh/catalog/categories/seasonal/back_to_college/10661/">
+									布艺沙发
+								</a>
+							
+								<a id="txt248" href="/cn/zh/catalog/categories/seasonal/back_to_college/20490/">
+									浴室镜
+								</a>
+							
+								<a id="txt249" href="/cn/zh/catalog/categories/seasonal/back_to_college/20624/">
+									煎锅和炒锅
+								</a>
+							
+								<a id="txt2410" href="/cn/zh/catalog/categories/seasonal/back_to_college/16285/">
+									单人床
+								</a>
+							
+								<a id="txt2411" href="/cn/zh/catalog/categories/seasonal/back_to_college/10712/">
+									桌面和桌腿
+								</a>
+							
+								<a id="txt2412" href="/cn/zh/catalog/categories/seasonal/back_to_college/10663/">
+									沙发床
+								</a>
+							
+								<a id="txt2413" href="/cn/zh/catalog/categories/seasonal/back_to_college/10555/">
+									浴室配件
+								</a>
+							
+								<a id="txt2414" href="/cn/zh/catalog/categories/seasonal/back_to_college/20633/">
+									深锅和烧锅
+								</a>
+							
+								<a id="txt2415" href="/cn/zh/catalog/categories/seasonal/back_to_college/10769/">
+									花瓶和碗
+								</a>
+							
+								<a id="txt2416" href="/cn/zh/catalog/categories/seasonal/back_to_college/20647/">
+									厨具
+								</a>
+							
+								<a id="txt2417" href="/cn/zh/catalog/categories/seasonal/back_to_college/10711/">
+									抽屉柜
+								</a>
+							
+								<a id="txt2418" href="/cn/zh/catalog/categories/seasonal/back_to_college/10759/">
+									时钟
+								</a>
+							
+								<a id="txt2419" href="/cn/zh/catalog/categories/seasonal/back_to_college/20519/">
+									浴室防滑垫
+								</a>
+							
+								<a id="txt2420" href="/cn/zh/catalog/categories/seasonal/back_to_college/10705/">
+									茶几和边桌
+								</a>
+							
+								<a id="txt2421" href="/cn/zh/catalog/categories/seasonal/back_to_college/19039/">
+									高架床和双层床
+								</a>
+							
+								<a id="txt2422" href="/cn/zh/catalog/categories/seasonal/back_to_college/20652/">
+									办公椅
+								</a>
+							
+								<a id="txt2423" href="/cn/zh/catalog/categories/seasonal/back_to_college/19037/">
+									客用床和坐卧两用床
+								</a>
+							
+								<a id="txt2424" href="/cn/zh/catalog/categories/seasonal/back_to_college/20520/">
+									毛巾
+								</a>
+							
+								<a id="txt2425" href="/cn/zh/catalog/categories/seasonal/back_to_college/10475/">
+									电视及视听类家具
+								</a>
+							
+								<a id="txt2426" href="/cn/zh/catalog/categories/seasonal/back_to_college/10760/">
+									蜡烛和蜡台
+								</a>
+							
+								<a id="txt2427" href="/cn/zh/catalog/categories/seasonal/back_to_college/15937/">
+									食品储存与整理
+								</a>
+							
+								<a id="txt2428" href="/cn/zh/catalog/categories/seasonal/back_to_college/24823/">
+									泡沫和乳胶床垫
+								</a>
+							
+								<a id="txt2429" href="/cn/zh/catalog/categories/seasonal/back_to_college/18908/">
+									浴帘
+								</a>
+							
+								<a id="txt2430" href="/cn/zh/catalog/categories/seasonal/back_to_college/18868/">
+									玻璃器皿和水壶
+								</a>
+							
+								<a id="txt2431" href="/cn/zh/catalog/categories/seasonal/back_to_college/16213/">
+									筐子和袋子
+								</a>
+							
+								<a id="txt2432" href="/cn/zh/catalog/categories/seasonal/back_to_college/10382/">
+									书柜
+								</a>
+							
+								<a id="txt2433" href="/cn/zh/catalog/categories/seasonal/back_to_college/24827/">
+									木条床板
+								</a>
+							
+								<a id="txt2434" href="/cn/zh/catalog/categories/seasonal/back_to_college/16195/">
+									电线整理和配件
+								</a>
+							
+								<a id="txt2435" href="/cn/zh/catalog/categories/seasonal/back_to_college/10452/">
+									衣物储藏件
+								</a>
+							
+								<a id="txt2436" href="/cn/zh/catalog/categories/seasonal/back_to_college/18860/">
+									餐具
+								</a>
+							
+								<a id="txt2437" href="/cn/zh/catalog/categories/seasonal/back_to_college/16044/">
+									咖啡和茶
+								</a>
+							
+								<a id="txt2438" href="/cn/zh/catalog/categories/seasonal/back_to_college/20656/">
+									床边桌
+								</a>
+							
+								<a id="txt2439" href="/cn/zh/catalog/categories/seasonal/back_to_college/11465/">
+									搁架单元
+								</a>
+							
+								<a id="txt2440" href="/cn/zh/catalog/categories/seasonal/back_to_college/10551/">
+									文件和多媒体储藏件
+								</a>
+							
+								<a id="txt2441" href="/cn/zh/catalog/categories/seasonal/back_to_college/20597/">
+									衣物洗涤和清洁
+								</a>
+							
+								<a id="txt2442" href="/cn/zh/catalog/categories/seasonal/back_to_college/18865/">
+									刀叉餐具
+								</a>
+							
+								<a id="txt2443" href="/cn/zh/catalog/categories/seasonal/back_to_college/19059/">
+									床用储物件
+								</a>
+							
+								<a id="txt2444" href="/cn/zh/catalog/categories/seasonal/back_to_college/11466/">
+									开放式衣类储物系列
+								</a>
+							
+								<a id="txt2445" href="/cn/zh/catalog/categories/seasonal/back_to_college/10731/">
+									落地灯
+								</a>
+							
+								<a id="txt2446" href="/cn/zh/catalog/categories/seasonal/back_to_college/10398/">
+									连壁搁板
+								</a>
+							
+								<a id="txt2447" href="/cn/zh/catalog/categories/seasonal/back_to_college/15934/">
+									刀具和砧板
+								</a>
+							
+								<a id="txt2448" href="/cn/zh/catalog/categories/seasonal/back_to_college/10732/">
+									台灯
+								</a>
+							
+								<a id="txt2449" href="/cn/zh/catalog/categories/seasonal/back_to_college/10651/">
+									床上用品
+								</a>
+							
+								<a id="txt2450" href="/cn/zh/catalog/categories/seasonal/back_to_college/16274/">
+									挂钩和衣架
+								</a>
+							
+								<a id="txt2451" href="/cn/zh/catalog/categories/seasonal/back_to_college/20502/">
+									工作灯
+								</a>
+							
+								<a id="txt2452" href="/cn/zh/catalog/categories/seasonal/back_to_college/20528/">
+									毯子和休闲毯
+								</a>
+							
+								<a id="txt2453" href="/cn/zh/catalog/categories/seasonal/back_to_college/10653/">
+									地毯
+								</a>
+							
+								<a id="txt2454" href="/cn/zh/catalog/categories/seasonal/back_to_college/20503/">
+									壁灯
+								</a>
+							
+		    			</div>
+		    		</div>
+		    		
+	                
+	                	</div>
+	                
+            </div>
+
+            <div class="horizontalShadowContainer align"><img id="imgShdwMain1" src="/ms/img/bgHorizDivider.gif" border="0" class="bgImg" alt=" "/></div>
+
+			
+			<div class="servicesContainer align">
+				   
+			</div>
+							
+
+        </div>
+
+		<div class="leftNavigation" id="allProductsNavigation">
+			<div class="productNavigation">
+				<div class="navigationBlock">
+					<div class="browseModule">
+						<div class="header">所有产品 a-z</div>
+		                <div>帮您寻找产品</div>
+		                <div class="sideModuleLink">
+		                <img src="/ms/img/link_arrow.gif" class="linkImg" border="0" alt="根据名称寻找产品"/>
+						<a href="/cn/zh/catalog/productsaz/0/">
+							根据名称寻找产品
+						</a>
+						</div>
+		            </div>
+		        </div>
+	        </div>
+
+			
+			<div class="adsContainer">
+				
+				<div class="adContainer">
+				<!-- lets not get the adcopy if its already present in the request -->
+<div class="adKnowledgeContainer">
+
+	<div class="content">
+	
+		<div class="headerContainer ">
+			<span id="txtHdr1AllProductsEspot1" class="header">温暖，从卧室开始</span>
+		</div>
+		
+		
+			<a id="lnk_med_gen_adAllProductsEspot1"  href="http://www.ikea.com/cn/zh/catalog/categories/departments/bedroom/" /> 
+		
+		<img id="img1AllProductsEspot1" src="/ms/zh_CN/img/2014_img/bedroom_130x115.jpg" border="0" alt="卧室" class="adImg"/>
+		
+			</a>
+		
+		
+		<span id="txtDescr1AllProductsEspot1" class="text"> </span>
+		<span class="link">
+		
+			<a id="lnk1AllProductsEspot1" href="http://www.ikea.com/cn/zh/catalog/categories/departments/bedroom/">卧室家具</a>
+		
+		</span>
+	</div>
+
+</div>
+ 
+				</div>
+
+				
+						<div class="adContainer adContainerFirst">
+					<!-- lets not get the adcopy if its already present in the request -->
+<div class="adKnowledgeContainer adContainerNoBorder">
+
+	<div class="content">
+	
+		<div class="headerContainer ">
+			<span id="txtHdr1AllProductsEspot2" class="header">打造舒适睡眠</span>
+		</div>
+		
+		
+			<a id="lnk_med_gen_adAllProductsEspot2"  href="http://www.ikea.com/cn/zh/catalog/categories/departments/bedroom/Mattresses/" /> 
+		
+		<img id="img1AllProductsEspot2" src="/ms/zh_CN/img/2014_img/mattresses_130x115.jpg" border="0" alt="床垫" class="adImg"/>
+		
+			</a>
+		
+		
+		<span id="txtDescr1AllProductsEspot2" class="text"> </span>
+		<span class="link">
+		
+			<a id="lnk1AllProductsEspot2" href="http://www.ikea.com/cn/zh/catalog/categories/departments/bedroom/Mattresses/">床垫</a>
+		
+		</span>
+	</div>
+
+</div>
+ 
+				</div>
+				
+						<div class="adContainer adContainerFirst">
+					<!-- lets not get the adcopy if its already present in the request -->
+<div class="adKnowledgeContainer">
+
+	<div class="content">
+	
+		<div class="headerContainer ">
+			<span id="txtHdr1AllProductsEspot3" class="header">让孩子更好成长</span>
+		</div>
+		
+		
+			<a id="lnk_med_gen_adAllProductsEspot3"  href="http://www.ikea.com/cn/zh/catalog/categories/departments/childrens_ikea/" /> 
+		
+		<img id="img1AllProductsEspot3" src="/ms/zh_CN/img/2014_img/children_130x115.jpg" border="0" alt="儿童房" class="adImg"/>
+		
+			</a>
+		
+		
+		<span id="txtDescr1AllProductsEspot3" class="text"> </span>
+		<span class="link">
+		
+			<a id="lnk1AllProductsEspot3" href="http://www.ikea.com/cn/zh/catalog/categories/departments/childrens_ikea/">儿童家具</a>
+		
+		</span>
+	</div>
+
+</div>
+ 
+				</div>
+				
+				
+						<div class="adContainer adContainerFirst">
+					 
+				</div>
+				
+						<div class="adContainer">
+					 
+				</div>				
+				
+			</div>
+		</div>
+        
+		
+
+</div></div><div style="clear: both;"></div> 
+
+
+
+        
+        
+        <div id="footer">
+
+            
+            <div class="linksWrapper">
+                
+                    <div class="linkContainer linkContainerFirst">
+				
+                    
+                    <div class="header">
+                    
+                            <a class="link" href="/ms/zh_CN/customer-service/about-shopping/catalogue-and-brochures/index.html" > 
+                                2018&#x5B9C;&#x5BB6;&#x300A;&#x5BB6;&#x5C45;&#x6307;&#x5357;&#x300B;
+                            </a>
+                        
+                    </div>
+                    
+                            
+                               
+                                    <a class="link" href="http://onlinecatalogueasia.ikea.com/cn/zh_CN/IKEA_Catalogue/">
+                                        &#x5728;&#x7EBF;&#x9605;&#x8BFB;
+                                    </a>
+                                   
+                            
+                        
+                </div>
+                <div class="linkContainer"><div class="header"><a href="/ms/zh_CN/customer_service/ikea_services/ikea_services.html">&#x5BA2;&#x6237;&#x670D;&#x52A1;</a></div><a href="/ms/zh_CN/customer_service/guide_to_ikea/index.html">&#x8D2D;&#x7269;&#x653B;&#x7565;</a><a href="http://www.ikea.com/ms/zh_CN/ikny_splash.html">&#x5B9C;&#x5BB6;&#x5546;&#x573A;</a><a href="/ms/zh_CN/customer_service/ikea_services/ikea_services.html">&#x6211;&#x4EEC;&#x7684;&#x670D;&#x52A1;</a><a href="/ms/zh_CN/customer-service/about-shopping/return-policy.html">&#x9000;&#x6362;&#x8D27;&#x653F;&#x7B56;</a><a href="/ms/zh_CN/customer_service/contact_us/contact.html">&#x8054;&#x7CFB;&#x6211;&#x4EEC;</a><a href="/ms/zh_CN/customer_service/faq/index.html">&#x5E38;&#x89C1;&#x95EE;&#x9898;</a></div><div class="linkContainer"><div class="header"><a href="/ms/zh_CN/this-is-ikea/index.html">&#x8FD9;&#x5C31;&#x662F;&#x5B9C;&#x5BB6;</a></div><a href="/ms/zh_CN/this-is-ikea/the-ikea-concept/index.html">&#x5B9C;&#x5BB6;&#x7406;&#x5FF5;</a><a href="/ms/zh_CN/this-is-ikea/democratic-design/index.html">&#x6C11;&#x4E3B;&#x8BBE;&#x8BA1;</a><a href="/ms/zh_CN/this-is-ikea/about-the-ikea-group/index.html">&#x5173;&#x4E8E;&#x5B9C;&#x5BB6;&#x96C6;&#x56E2;</a><a href="/ms/zh_CN/this-is-ikea/people-and-planet/index.html">&#x4EBA;&#x7C7B;&#x4E0E;&#x5730;&#x7403;</a><a href="http://www.IKEAfoundation.org">IKEA Foundation</a></div><div class="linkContainer"><div class="header"><a href="/ms/zh_CN/this-is-ikea/working-at-the-ikea-group/index.html">&#x5DE5;&#x4F5C;&#x5728;&#x5B9C;&#x5BB6;</a></div><a href="/ms/zh_CN/this-is-ikea/available-jobs/index.html">&#x73B0;&#x5728;&#x5C31;&#x7533;&#x8BF7;</a></div><div class="linkContainer"><div class="header"><a  href="/ms/zh_CN/about_ikea/newsroom/press_contacts/index.html">&#x65B0;&#x95FB;&#x8054;&#x7EDC;</a></div></div><div class="linkContainer lastLinkContainer"><div class="header"><a href="/cn/zh/about_ikea/newsroom">&#x65B0;&#x95FB;&#x5BA4;</a></div></div>
+    <div class="clearAll"></div> <!-- IKEA00671879 -->
+    </div> 
+        
+
+            <div class="copyRight" id="txtCopyFooter">
+                © Inter IKEA Systems B.V. 1999 - 2017
+                
+                        
+                            <span class="linkDivider">|</span>
+                            <a href="/ms/zh_CN/privacy_policy/privacy_policy.html">
+                                隐私政策
+                            </a>
+                        
+                            <span class="linkDivider">|</span>
+                            <a href="http://www.beian.gov.cn/portal/registerSystemInfo?recordcode=31010402001069">
+                                沪公网安备 31010402001069号
+                            </a>
+                        
+                            <span class="linkDivider">|</span>
+                            <a href="http://218.242.124.22:8081/businessCheck/verifKey.do?showType=extShow&amp;serial=9031000020160822152212000001162100-SAIC_SHOW_310000-20160812190229669402&amp;signData=MEYCIQCHZS5GhByrGnWQm7lnffHRvNPpyLSkEY+n/IY8AG0JLAIhAPDgDC9cuRqVrtqtvWav+UzwcnpYMkOudGeASqGZUPQT">
+                                <img src="/ms/zh_CN/img/2017_img/others/lz5.png" height="18" width="18"> 电子营业快照 
+                            </a>
+                        
+                    
+                
+                
+                        
+                        <span class="linkDivider">|</span>
+                        <a href="http://www.miibeian.gov.cn/" rel="blank">
+                            沪ICP备 09045065号
+                        </a>
+                            
+                    
+                
+                <noscript>
+                    <div style="display: none;">
+                        <img src="https://smetrics.ikea.com/b/ss/ikeaallnojavascriptprod/5/?c8=cn&amp;pageName=nojavascript" alt="" width="5" height="5" />
+                    </div>
+                </noscript>
+        </div>
+    
+
+</div>
+        
+        
+    
+
+
+
+
+<div style="display:none;">
+		<script type="text/javascript">
+		irwstatSend();
+	    </script>
+	
+</div>
+<script src="/ms/js/new_survey_popup.js" type="text/javascript"></script>
+<script src="/ms/js/survey_global.js" type="text/javascript"></script>
+</body>
+</html>
