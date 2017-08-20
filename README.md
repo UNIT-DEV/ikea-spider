@@ -18,7 +18,7 @@ scrapy crawl ikea -o result.csv
 
 | category | name | broad | price | feature | discount | link | new |
 | ------- | ----- | ----- | ----- | ------ | ------- | ----- | ----- |
-| 内配件 | 中高抽屉分隔件 | MAXIMERA 马斯麦 | ¥ 49.00 |  | False | http://www.ikea.com/cn/zh/catalog/categories/departments/ikea_kitchens/24255/ | False| 
+| 内配件 | 中高抽屉分隔件 | MAXIMERA 马斯麦 | ¥ 49.00 |  | False | http://www.ikea.com/cn/zh/catalog/products/20271255/ | False| 
 | 床上用品 | 被套和枕套 | 法耶恩斯特 | ¥ 149.00 |  | False | http://www.ikea.com/cn/zh/catalog/products/00337479/ | True |
 | 挂钩和衣架 | 自粘挂钩 | 普鲁特 | ¥ 6.90 | 室内/户外 | True | http://www.ikea.com/cn/zh/catalog/products/10291471/ | False |
 
